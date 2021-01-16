@@ -5,9 +5,12 @@ import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <App />,
+  <HashRouter>
+      <App/>
+  </HashRouter>,
   document.getElementById('root')
 );
 
